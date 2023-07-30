@@ -4,8 +4,9 @@
   "description": "ini adalah api automation test dengan mocha, supertest, jest",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/spec/create.user.spec.js",
-    "test:login": "mocha test/spec/login.spec.js"
+    "test": "mocha test/suite/user.suite.js --reporter mochawesome",
+    "test:login": "mocha test/spec/login.spec.js",
+    "html-report:api": "open ./mochawesome-report/mochawesome.html"
   },
   "keywords": [
     "api",
@@ -16,6 +17,7 @@
   "dependencies": {
     "chai": "^4.3.7",
     "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
     "supertest": "^6.3.3"
   }
 }
