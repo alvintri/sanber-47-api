@@ -1,7 +1,7 @@
 const request = require("supertest");
 const { expect } = require("chai");
 
-
+//CONTOH METODE POST DI API AUTOMATION
 describe('Login Feature', () => {
     it('Success Login', async () => {
         const response = await request("https://kasir-api.belajarqa.com") //BASEURL
@@ -32,6 +32,8 @@ describe('Login Feature', () => {
     })
 })
 
+
+//CONTOH METODE GET DI API AUTOMATION TANPA AUTH (TOKEN)
 describe('Get User', ()=>{
     const queryPage = 2
     it('Success Get User Detail', async () => {

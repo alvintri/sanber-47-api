@@ -4,7 +4,8 @@
   "description": "ini adalah api automation test dengan mocha, supertest, jest",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --"
+    "test": "mocha test/spec/create.user.spec.js",
+    "test:login": "mocha test/spec/login.spec.js"
   },
   "keywords": [
     "api",
