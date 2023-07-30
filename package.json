@@ -1,0 +1,20 @@
+{
+  "name": "sanber-47-api",
+  "version": "1.0.0",
+  "description": "ini adalah api automation test dengan mocha, supertest, jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --"
+  },
+  "keywords": [
+    "api",
+    "automation"
+  ],
+  "author": "alvin",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
